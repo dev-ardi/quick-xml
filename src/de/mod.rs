@@ -944,6 +944,8 @@
 //! </td>
 //! <td>
 //!
+//! NOTE: In the case that the list might contain tags that are overlapped with tags that do not correspond to the list
+//
 //! All elements mapped to the heterogeneous sequential type: tuple or named tuple.
 //! Each element of the tuple should be able to be deserialized from the nested
 //! element content (`...`), except the enum types which would be deserialized
