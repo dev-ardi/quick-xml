@@ -940,6 +940,9 @@
 //!
 //! NOTE: this is just an example for showing mapping. XML does not allow
 //! multiple root tags -- you should wrap the sequence into a tag.
+//!
+//! NOTE: In the case that the list might contain tags that are overlapped with tags that do not correspond to the list you should add the feature `overlapped-lists`.
+//!
 //! </div>
 //! </td>
 //! <td>
